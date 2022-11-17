@@ -1,8 +1,11 @@
 # CASA0014 plant monitor
-In our class, we have built a plant monitor that measures a plant's level of humidity, temperature and moisture. 
-Put together with an Adafruit Feather Huzzah With ESP8266 board, we used a DHT22 sensor to obtain temperature and humidity values, and used a solid state soil sensor with two nails, which gave moisture readings depending on the resistance measured between the nails stuck into soil.
+![plant_monitor_plant](https://user-images.githubusercontent.com/114293506/202556328-1c4f46d6-7229-4888-9b41-f8c6ace075a2.jpg)
+<em>My plant monitor hard at work measuring the temperature, humidity and moisture levels of this Neon Pothos! </em>
 
-After building it, we published our data on the Internet through our department's MQTT server, set up a Raspberry Pi as a data store and further visualized the collected data through programs such as influxDB and Grafana.
+<p>In class, I built a plant monitor that measures a plant's level of temperature, humidity and moisture.
+Put together with an <strong>Adafruit Feather Huzzah ESP8266 board</strong>, I used a <strong>DHT22 sensor</strong> to <strong>obtain temperature and humidity values</strong>, and used a <strong>solid state soil sensor</strong> which gave moisture readings depending on the resistance measured between two nails while placed into plant soil.</p>
+
+After building it, I published its data on the Internet through <strong>our department's MQTT server</strong>, <strong>set up a Raspberry Pi as a data store</strong> and <strong>further visualised the collected data</strong> through programs such as <strong>influxDB</strong> and <strong>Grafana</strong>.
 
 <p><strong>Section 2: My InfluxDB customisations</strong></p>
 <p>I made use of the Alert function in InfluxDB's UI to make custom alert statuses for each temperature, humidity and moisture reading recieved from the MQTT server. With that, I defined a range of values that would assign each new reading recieved a status of either <strong>crit</strong>, <strong>warn</strong> or <strong>ok</strong>.</p>
