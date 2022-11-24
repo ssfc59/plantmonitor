@@ -16,7 +16,7 @@ Put together with an <strong>Adafruit Feather Huzzah ESP8266 board</strong>, I u
 ![Screenshot (6450)](https://user-images.githubusercontent.com/114293506/203842417-d9e5b67c-db51-4209-bd40-6333b4e74ed6.png)
 <p><em>Fig 3. My plant monitor data visualised through Grafana.</p></em>
 
-![Screenshot (6520)](https://user-images.githubusercontent.com/114293506/203849176-6f1ad7ca-aed4-4f5d-88fd-28baaf5da4e5.png)
+![Screenshot (6521)](https://user-images.githubusercontent.com/114293506/203849644-57361268-9787-47eb-b3dd-d5efa57964b6.png)
 <p><em>Fig 4. Diagram showing the different components involved in the running of the plant monitor.</p></em>
 
 <p><strong>Section 2: My InfluxDB customisations</strong></p>
