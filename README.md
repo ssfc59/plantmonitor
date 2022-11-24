@@ -16,6 +16,9 @@ Put together with an <strong>Adafruit Feather Huzzah ESP8266 board</strong>, I u
 ![Screenshot (6450)](https://user-images.githubusercontent.com/114293506/203842417-d9e5b67c-db51-4209-bd40-6333b4e74ed6.png)
 <p><em>Fig 3. My plant monitor data visualised through Grafana.</p></em>
 
+![Screenshot (6520)](https://user-images.githubusercontent.com/114293506/203849176-6f1ad7ca-aed4-4f5d-88fd-28baaf5da4e5.png)
+<p><em>Fig 4. Diagram showing the different components involved in the running of the plant monitor.</p></em>
+
 <p><strong>Section 2: My InfluxDB customisations</strong></p>
 <p>I made use of the Alert function in InfluxDB's UI to make custom alert statuses for each temperature, humidity and moisture reading recieved from the MQTT server. With that, I defined a range of values that would assign each new reading recieved a status of either <strong>crit</strong>, <strong>warn</strong> or <strong>ok</strong>.</p>
 
